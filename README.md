@@ -10,7 +10,6 @@ $ docker compose build
 #  TypeScript + React でプロジェクト作成
 
 ```
-# Create project
 $ docker compose run --rm react-app sh -c "npx create-react-app react-sample --template typescript"
 ```
 
