@@ -12,7 +12,7 @@ services:
     environment:
       - NODE_DEV=development
       - CHOKIDAR_USEPOLLING=true
-    command: sh -c "cd /app/sample_app && npm run dev"
+    command: sh -c "cd /app/react-sample && npm start"
     ports:
        - 3000:3000
     tty: true

@@ -7,14 +7,11 @@ $ mkdir app
 $ docker compose build
 ```
 
-# Next.js + React のインストール
+#  TypeScript + React でプロジェクト作成
 
 ```
-# Install Next.js 
-$ docker compose run --rm react-app npm install create-next-app
-
 # Create project
-$ docker-compose run --rm react-app npx create-next-app sample_app --ts
+$ docker compose run --rm react-app sh -c "npx create-react-app react-sample --template typescript"
 ```
 
 # Webサーバの起動
